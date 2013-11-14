@@ -1,0 +1,29 @@
+" 总是显示状态行
+set laststatus=2
+
+
+" 命令行（在状态行下）的高度，默认为1，这里是2
+set cmdheight=1
+
+
+"颜色方案
+"colorscheme ron
+
+
+"显示中文帮助
+if version >= 603
+	set helplang=cn
+	set encoding=utf-8
+endif
+
+"禁止生成临时文件
+set nobackup
+
+"搜索逐字符高亮
+set hlsearch
+set incsearch
+
+
+
+"为C程序提供自动缩进
+"set smartindent
